@@ -1,0 +1,84 @@
+.tracker {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tracker > div:first-child {
+  margin-top: 15px;
+}
+
+.transactions {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.transaction {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.transaction > div:first-child {
+  margin-left: 10px;
+}
+
+.search {
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 15px;
+}
+
+.breakdown {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+}
+
+.breakdownitem {
+  border: 1px solid black;
+  height: 50px;
+  width: 48%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.addtransaction {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.addtransaction > input:first-child {
+  margin-top: 15px;
+}
+
+.addbutton {
+  margin-bottom: 10px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addinput {
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 30px;
+}
